@@ -7,11 +7,11 @@ go 環境構築用 boilertemplate
 ```shell
 .
 ├── Makefile
-├── build         # build実行後にできるファイルの格納先
-├── coverage      # テストのカバレッジ保存先
+├── build                  # build実行後にできるファイルの格納先
+├── coverage               # テストのカバレッジ保存先
 ├── go.mod
 ├── main.go
-└── pkg          # main.goからimportされるパッケージ
+└── pkg                    # main.goからimportされるパッケージ
     └── sample
         ├── sample.go
         └── sample_test.go # pkg内に記述
